@@ -1,9 +1,12 @@
 package main
 
+import (
+	"fmt"
+)
+
 func main() {
-	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	// oN(numbers)
-	// oLogN(10)
-	// oNLongN(10)
-	oN2(numbers)
+	numbers := []int{20, 64, 18, 4, 98}
+	shuffle(numbers)
+	bogoSort(numbers)
+	fmt.Println(numbers)
 }
